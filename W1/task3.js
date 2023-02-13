@@ -1,31 +1,44 @@
 /* 
-task3: 使用 orders 的資料整理成 sql 用的語法。
-預設執行指令 node W1/task2.js 輸出結果為:
-INSERT INTO Order (price, count) VALUES (1000, 2),(2000,2),(2000,3)
+題目: 
+將 person 中的 age 欄位值讀取出來，然後給他減 10 歲，然後在 person 中新增 trueAge
+
+結果輸出:
+預設執行指令 node W1/task3.js 輸出結果為:
+{
+  name: 'markA',
+  age: 18
+}
+{
+  name: 'markB',
+  age: 28
+}
+
+目標:
+- 學會什麼是 array
+- 學會如何 loop 陣列 ( 白話文就是走過每個陣列元素，因為這樣才能對每個元素進行修改 )
 
 參考資料: 
+https://www.w3schools.com/js/js_arrays.asp
+
+// 以下兩個擇一學，就可以
 https://www.w3schools.com/js/js_loop_for.asp
-https://www.w3schools.com/js/js_string_templates.asp
+https://www.w3schools.com/js/js_loop_forin.asp
 */ 
 
-var orders = [
+var persons = [
   {
-    price: 1000,
-    count: 2
-  },{
-    price: 2000,
-    count: 2
-  },{
-    price: 2000,
-    count: 3
+    name: 'markA',
+    age: 18
+  },
+  {
+    name: 'markB',
+    age: 28
   }
 ];
 
-// ==================================
-var sql = '';
+// ================ 寫程式碼的地方 ==================
+// tip: console.log 寫在 loop 中 
 
 
 
 // ==================================
-// 將結果輸出
-console.log(sql);

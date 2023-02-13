@@ -1,29 +1,29 @@
 /* 
-task1: 將 input 進行資料整理，將每個 amount 變成日元(就是乘4)，並且加上幣別欄位。
+題目: 
+將 person 中的 age 欄位值讀取出來
+
+結果輸出:
 預設執行指令 node W1/task1.js 輸出結果為:
-[
-  { amount: 4000, currency: 'JPY' },
-  { amount: 8000, currency: 'JPY' },
-  { amount: 12000, currency: 'JPY' }
-]
+18
+
+目標:
+- 學習什麼是 object
+- 如何讀取 object 的欄位(或叫屬性)
+
 
 參考資料: 
-https://www.w3schools.com/js/js_loop_for.asp
 https://www.w3schools.com/js/js_objects.asp
 */ 
 
-var input = [
-  {
-    amount: 1000
-  },{
-    amount: 2000
-  },{
-    amount: 3000
-  }
-];
+var person = {
+  name: 'mark',
+  age: 18
+};
 
-// ==================================
-// 在這裡將資料整理成 task
+console.log(person);
+// ================ 寫程式碼的地方 ==================
+// tip: 讀取 person 的 age 欄位，然後放到 input 中
+var input = null;
 
 
 
